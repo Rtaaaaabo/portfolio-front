@@ -1,7 +1,16 @@
-span.navTitle{
+span.navTitle {
     padding: 5px 70px 0 30px;
 }
 
 mat-toolbar-row.mat-toolbar-row {
     border-bottom: 1px solid #e8eaed;
+}
+
+footer {
+    background-color: #ddd;
+    border-top: 1px solid #bbb;
+    text-align: center;
+}
+#btmFooter {
+    align-self: flex-end;
 }

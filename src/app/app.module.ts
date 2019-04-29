@@ -5,20 +5,19 @@ import { AppComponent } from './app.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CustomMaterialModule } from './custom-material/custom-material.module';
-// import { MatButtonModule, MatCheckboxModule, MatToolbarModule } from '@angular/material';
+// import { ComponentModule } from './component/component.module';
+import { ProfilesComponent } from './profiles/profiles.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProfilesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    // MatButtonModule,
-    // MatCheckboxModule,
-    // MatToolbarModule,
-    CustomMaterialModule
+    CustomMaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
