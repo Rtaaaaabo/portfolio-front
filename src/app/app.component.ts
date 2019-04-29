@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angularPortfolio';
+  title = 'Taku Nakagawa';
+  links = ['Profile', 'Works', 'Skills', 'Blogs'];
+  activeLinks = this.links[0];
 }
