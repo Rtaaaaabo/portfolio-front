@@ -7,11 +7,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CustomMaterialModule } from './custom-material/custom-material.module';
 // import { ComponentModule } from './component/component.module';
 import { ProfilesComponent } from './profiles/profiles.component';
+import { WorksComponent } from './works/works.component';
+import { SkillsComponent } from './skills/skills.component';
+import { BlogsComponent } from './blogs/blogs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProfilesComponent
+    ProfilesComponent,
+    WorksComponent,
+    SkillsComponent,
+    BlogsComponent
   ],
   imports: [
     BrowserModule,
