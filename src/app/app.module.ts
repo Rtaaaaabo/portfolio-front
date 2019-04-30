@@ -11,6 +11,7 @@ import { WorksComponent } from './works/works.component';
 import { SkillsComponent } from './skills/skills.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FooterComponent } from './footer/footer.component';
     WorksComponent,
     SkillsComponent,
     BlogsComponent,
-    FooterComponent
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

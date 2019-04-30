@@ -6,12 +6,22 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  selectedTab = '';
+
   title = 'Taku Nakagawa';
   links = [
-    { name: 'Profile', urlPath: '' },
+    { name: 'Profile', urlPath: 'profile' },
     { name: 'Works', urlPath: 'works' },
     { name: 'Skills', urlPath: 'skills' },
     { name: 'Blogs', urlPath: 'blogs' },
   ];
-  activeLink = this.links[0].name;
+
+  onSelect(link) {
+    this.selectedTab = link;
+    console.log(this.selectedTab);
+  }
+
+  OnInit() {
+    console.log(this.selectedTab);
+  }
 }
