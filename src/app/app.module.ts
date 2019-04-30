@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CustomMaterialModule } from './custom-material/custom-material.module';
-// import { ComponentModule } from './component/component.module';
+import { ComponentModule } from './component/component.module';
 import { ProfilesComponent } from './profiles/profiles.component';
 import { WorksComponent } from './works/works.component';
 import { SkillsComponent } from './skills/skills.component';
@@ -26,6 +26,7 @@ import { FooterComponent } from './footer/footer.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     CustomMaterialModule,
+    ComponentModule
   ],
   providers: [],
   bootstrap: [AppComponent]

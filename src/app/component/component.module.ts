@@ -1,18 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-import { ProfilesComponent } from '../profiles/profiles.component';
-
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
-    ProfilesComponent
   ],
   imports: [
     CommonModule,
+    NgbModule
   ],
   exports : [
-    ProfilesComponent
+    NgbModule
   ]
 })
 export class ComponentModule { }
