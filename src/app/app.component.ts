@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Taku Nakagawa';
   links = [
-    { name: 'Profile', urlPath: 'profile' },
+    { name: 'Profile', urlPath: '' },
     { name: 'Works', urlPath: 'works' },
     { name: 'Skills', urlPath: 'skills' },
     { name: 'Blogs', urlPath: 'blogs' },
