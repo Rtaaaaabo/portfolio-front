@@ -13,5 +13,5 @@ export class AppComponent {
     { name: 'Skills', urlPath: 'skills' },
     { name: 'Blogs', urlPath: 'blogs' },
   ];
-  activeLink = this.links[0];
+  activeLink = this.links[0].name;
 }
