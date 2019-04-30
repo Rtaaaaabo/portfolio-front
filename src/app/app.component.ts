@@ -1,11 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   selectedTab = '';
 
   title = 'Taku Nakagawa';
@@ -21,7 +21,8 @@ export class AppComponent {
     console.log(this.selectedTab);
   }
 
-  OnInit() {
-    console.log(this.selectedTab);
+  ngOnInit() {
+    console.log('ngOnInit');
   }
+
 }
