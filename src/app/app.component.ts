@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Taku Nakagawa';
   links = ['Profile', 'Works', 'Skills', 'Blogs'];
-  activeLinks = this.links[0];
+  activeLink = this.links[0];
 }

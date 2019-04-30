@@ -2,7 +2,7 @@
 <mat-toolbar>
     <span class="navTitle">Taku Nakagawa</span>
     <nav mat-tab-nav-bar>
-      <a mat-tab-link *ngFor="let link of links" (click)="activeLink = link" [active]="activeLinks == link">
+      <a mat-tab-link *ngFor="let link of links" (click)="activeLink = link" [active]="activeLink == link">
         <h2>{{ link }}</h2>
       </a>
     </nav>
