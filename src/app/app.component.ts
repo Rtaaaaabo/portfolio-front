@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Links } from './interface';
+import { LINKS } from './date-interface';
 
 @Component({
   selector: 'app-root',
@@ -10,12 +11,7 @@ export class AppComponent implements OnInit {
   selectedTab;
 
   title = 'Taku Nakagawa';
-  links: Links[] = [
-    { name: 'Profile', urlPath: 'profile', activedTab: false },
-    { name: 'Works', urlPath: 'works', activedTab: false },
-    { name: 'Skills', urlPath: 'skills', activedTab: false },
-    { name: 'Blogs', urlPath: 'blogs', activedTab: false },
-  ];
+  links = LINKS;
 
   onSelect(link) {
     for (const value of this.links) {
