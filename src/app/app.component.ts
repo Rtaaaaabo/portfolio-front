@@ -7,6 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Taku Nakagawa';
-  links = ['Profile', 'Works', 'Skills', 'Blogs'];
+  links = [
+    { name: 'Profile', urlPath: 'profile' },
+    { name: 'Works', urlPath: 'works' },
+    { name: 'Skills', urlPath: 'skills' },
+    { name: 'Blogs', urlPath: 'blogs' },
+  ];
   activeLink = this.links[0];
 }
