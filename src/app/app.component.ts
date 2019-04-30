@@ -11,7 +11,7 @@ export class AppComponent implements OnInit {
   selectedTab;
 
   title = 'Taku Nakagawa';
-  links = LINKS;
+  links: Links[] = LINKS;
 
   onSelect(link) {
     for (const value of this.links) {
