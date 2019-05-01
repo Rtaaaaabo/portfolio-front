@@ -3,3 +3,10 @@ export class Links {
     urlPath: string;
     activedTab: boolean;
 }
+
+export interface ExperienceElemnt {
+    period: string;
+    describe: string;
+    skill: string;
+    role: string;
+}
