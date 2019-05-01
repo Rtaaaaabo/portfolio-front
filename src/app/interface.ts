@@ -6,7 +6,9 @@ export class Links {
 
 export interface ExperienceElemnt {
     period: string;
+    describeTitle: string;
     describe: string;
-    skill: string;
-    role: string;
+    describeBusiness: string[];
+    skill: string[];
+    role: string[];
 }
