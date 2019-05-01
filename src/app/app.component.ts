@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Links } from './interface';
-import { LINKS } from './date-interface';
+
+import { TabsService } from './tabs.service';
 
 @Component({
   selector: 'app-root',
@@ -8,10 +9,14 @@ import { LINKS } from './date-interface';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  selectedTab;
+  constructor(private tabsService: TabsService) {}
 
   title = 'Taku Nakagawa';
-  links: Links[] = LINKS;
+  links: Links[];
+
+  getTabInfo(): void {
+  this.links = this.tabsService.getTabInfo();
+  }
 
   onSelect(link) {
     for (const value of this.links) {
@@ -19,11 +24,13 @@ export class AppComponent implements OnInit {
       if (value.name === link.name) {
         value.activedTab = true;
       }
-      console.log(this.links);
     }
+    console.log(this.links);
+    this.tabsService.putTabInfo(this.links);
   }
 
   ngOnInit() {
+    this.getTabInfo();
     console.log(this.links);
   }
 
