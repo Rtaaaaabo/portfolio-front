@@ -1,32 +1,32 @@
-<div>
-<h1>株式会社チェンジ</h1>
-<h2>2017年5月〜　現在</h2>
-<h2>事業内容：New-ITトランスフォーメーション</h2>
+<div class="wrapper">
+  <h1>株式会社チェンジ</h1>
+  <h2>2017年5月〜　現在</h2>
+  <h2>事業内容：New-ITトランスフォーメーション</h2>
 
-<mat-table [dataSource]="dataSource" class="mat-elevation-z8">
-  <ng-container matColumnDef = "period">
-    <mat-header-cell *matHeaderCellDef>期間</mat-header-cell>
-    <mat-cell *matCellDef="let element">{{element.period}} </mat-cell>
-  </ng-container>
+  <mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+    <ng-container matColumnDef="period">
+      <mat-header-cell *matHeaderCellDef>期間</mat-header-cell>
+      <mat-cell *matCellDef="let element">{{element.period}} </mat-cell>
+    </ng-container>
 
-  <ng-container matColumnDef="describe">
-    <mat-header-cell *matHeaderCellDef>プロジェクト内容</mat-header-cell>
-    <mat-cell *matCellDef="let element">{{ element.describe}}</mat-cell>
-  </ng-container>
+    <ng-container matColumnDef="describe">
+      <mat-header-cell *matHeaderCellDef>プロジェクト内容</mat-header-cell>
+      <mat-cell *matCellDef="let element">{{ element.describe}}</mat-cell>
+    </ng-container>
 
-  <ng-container matColumnDef="skill">
-    <mat-header-cell *matHeaderCellDef>担当技術</mat-header-cell>
-    <mat-cell *matCellDef="let element"> {{ element.skill }}</mat-cell>
-  </ng-container>
+    <ng-container matColumnDef="skill">
+      <mat-header-cell *matHeaderCellDef>担当技術</mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{ element.skill }}</mat-cell>
+    </ng-container>
 
-  <ng-container matColumnDef="role">
-    <mat-header-cell *matHeaderCellDef>役割</mat-header-cell>
-    <mat-cell *matCellDef="let element">{{ element.role }}</mat-cell>
-  </ng-container>
+    <ng-container matColumnDef="role">
+      <mat-header-cell *matHeaderCellDef>役割</mat-header-cell>
+      <mat-cell *matCellDef="let element">{{ element.role }}</mat-cell>
+    </ng-container>
 
-  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
-  <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
-</mat-table>
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
 
-<br>
+  <br>
 </div>
