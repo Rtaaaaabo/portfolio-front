@@ -18,3 +18,12 @@ footer {
 .mat-toolbar.mat-toolbar-single-row {
     font-size: 25px;
 }
+
+.menu-fill-remaining-space {
+    flex: 1 1 auto;
+}
+
+.menu-content {
+    font-size: 25px;
+    color: #424242;
+}

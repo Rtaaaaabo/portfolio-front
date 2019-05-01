@@ -1,14 +1,10 @@
 <mat-toolbar>
   <span class="navTitle">Taku Nakagawa</span>
-  <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+  <span class="menu-fill-remaining-space"></span>
+  <button class="menu-content" mat-button [matMenuTriggerFor]="menu">Menu</button>
   <mat-menu #menu="matMenu">
     <button mat-menu-item *ngFor="let link of links" routerLink="/{{link.urlPath}}" >{{ link.name }}</button>
   </mat-menu>
-  <!-- <nav mat-tab-nav-bar>
-    <a mat-tab-link *ngFor="let link of links" (click)="onSelect(link)" [active]="link.activedTab" routerLink="/{{link.urlPath}}">
-      <h2>{{ link.name }}</h2>
-    </a>
-  </nav> -->
 </mat-toolbar>
 <router-outlet></router-outlet>
 <app-footer></app-footer>
