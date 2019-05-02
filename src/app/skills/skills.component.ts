@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ExperienceElemnt } from '../interface';
 import { EXPERIENCE } from '../date-interface';
 
 @Component({

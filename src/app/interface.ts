@@ -13,3 +13,11 @@ export interface ExperienceElemnt {
     skill: string[];
     role: string[];
 }
+
+export interface WorkElement {
+    title: string;
+    describe; string;
+    color: string;
+    cols: number;
+    rows: number;
+}
