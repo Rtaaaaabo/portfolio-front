@@ -7,10 +7,7 @@
       <button mat-menu-item *ngFor="let link of links" routerLink="/{{link.urlPath}}">{{ link.name }}</button>
     </mat-menu>
   </mat-toolbar-row>
-  
-  <mat-toolbar-row>
-    <span *ngFor="let link of links" class="navTitle">{{ link.name }}</span>
-  </mat-toolbar-row>
+
 </mat-toolbar>
 
 
