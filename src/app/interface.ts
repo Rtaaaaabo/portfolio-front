@@ -5,6 +5,7 @@ export class Links {
 }
 
 export interface ExperienceElemnt {
+    companyId: number;
     period: string;
     describeTitle: string;
     describe: string;

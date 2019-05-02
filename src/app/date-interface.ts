@@ -9,6 +9,7 @@ export let LINKS: Links[] = [
 
 export const EXPERIENCE: ExperienceElemnt[] = [
     {
+        companyId: 1,
         period: '2018年11月〜現在',
         describeTitle: '社内業務改善PJ',
         describe:
@@ -18,6 +19,7 @@ export const EXPERIENCE: ExperienceElemnt[] = [
         role: ['リーダー']
     },
     {
+        companyId: 1,
         period: '2018年7月〜現在',
         describeTitle: '音声QnAサイネージPJ',
         describe:
@@ -27,6 +29,7 @@ export const EXPERIENCE: ExperienceElemnt[] = [
         role: ['マイルストーンの管理', 'フロント']
     },
     {
+        companyId: 1,
         period: '2018年6月〜2018年7月',
         describeTitle: '大手鉄道会社新入社員向けサービスの再発',
         describe:
@@ -36,6 +39,7 @@ export const EXPERIENCE: ExperienceElemnt[] = [
         role: ['マイルストーンの管理', 'フロント']
     },
     {
+        companyId: 1,
         period: '2017年7月〜2018年1月',
         describeTitle: 'Alexa Skill開発',
         describe:
@@ -44,7 +48,6 @@ export const EXPERIENCE: ExperienceElemnt[] = [
         skill: ['AWS', 'Amazon Develop'],
         role: ['開発']
     },
-
 ];
 
 
