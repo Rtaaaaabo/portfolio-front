@@ -1,6 +1,8 @@
-span.navTitle {
+button.navTitle {
     padding: 5px 70px 0 30px;
     font-size: 25px;
+    color: #4051b4;
+    font-weight: 700;
 }
 
 mat-toolbar-row.mat-toolbar-row {
@@ -37,4 +39,8 @@ footer {
 .mat-menu-item {
     font-size: 20px;
     font-weight: 400;
+}
+
+mat-toolbar.app-toolbar {
+    background: #ffffff;
 }
