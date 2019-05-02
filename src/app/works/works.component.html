@@ -1,3 +1,21 @@
-<p>
-  works works!
-</p>
+<div class="wrapper">
+  <div>
+    <div class="pageTitle">
+      <h2 class="pageCSSTitle">Works</h2>
+      <p class="pageCSSTitle">作成したもの</p>
+    </div>
+    <div class="row flex-container">
+      <mat-grid-list cols="2" rowHeight="500px">
+        <mat-grid-tile
+          *ngFor="let work of works"
+          [colspan] ="work.cols"
+          [rowspan]="work.rows"
+          [style.background]="work.color">
+          {{work.describe}}
+        </mat-grid-tile>
+      </mat-grid-list>
+    </div>
+    <div>
+    </div>
+  </div>
+</div>

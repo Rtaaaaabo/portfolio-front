@@ -30,6 +30,16 @@ export const EXPERIENCE: ExperienceElemnt[] = [
     },
     {
         companyId: 1,
+        period: '2018年6月〜2018年11月',
+        describeTitle: '大手建設会社検査サイトのViewer',
+        describe:
+            'Excelで管理していたデータをWebサイトで見れるように実装',
+        describeBusiness: ['設計', '実装', '改修'],
+        skill: ['AWS', 'Ionic', 'Angular'],
+        role: ['設計', 'マイルストーンの管理', 'フロント', 'API設計']
+    },
+    {
+        companyId: 1,
         period: '2018年6月〜2018年7月',
         describeTitle: '大手鉄道会社新入社員向けサービスの再発',
         describe:

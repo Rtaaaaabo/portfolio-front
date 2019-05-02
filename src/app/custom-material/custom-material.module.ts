@@ -5,6 +5,7 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatTableModule } from '@angular/material/table';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 @NgModule({
   declarations: [],
@@ -15,14 +16,16 @@ import { MatTableModule } from '@angular/material/table';
     MatTabsModule,
     MatCardModule,
     MatMenuModule,
+    MatGridListModule
   ],
-  exports : [
+  exports: [
     MatButtonModule,
     MatToolbarModule,
     MatTabsModule,
     MatCardModule,
     MatMenuModule,
     MatTableModule,
+    MatGridListModule,
   ]
 })
-export class CustomMaterialModule { }
+export class CustomMaterialModule {}
