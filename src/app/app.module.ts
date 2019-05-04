@@ -12,6 +12,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -28,9 +29,10 @@ import { HeaderComponent } from './header/header.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     CustomMaterialModule,
-    ComponentModule
+    ComponentModule,
+    FlexLayoutModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
