@@ -4,10 +4,20 @@
       <h2 class="pageCSSTitle">Works</h2>
       <p class="pageCSSTitle">作成したもの</p>
     </div>
-    <div class="row flex-container">
-      <mat-grid-list
-        routerLink="https://stackoverflow.com/questions/36569935/how-to-use-line-break-in-gridlistdynamic-tiles-in-angularjs"
-        cols="2" rowHeight="2:1">
+
+    <div fxLayout="row wrap" class="row-wrapper">
+      <div class="forWorks" fxFlex="50" fxFlex.sm="100" fxFlex.xs="100" fxLayoutAlign="center center">
+        <mat-card-content>
+        <h4 class="cardTitle">ポートフォリオサイト</h4>
+        <h5 class="cardh3">言語：TypeScript</h5>
+        <h5 class="cardh3">フレームワーク：Angular v7,Angular Material </h5>
+        </mat-card-content>
+      </div>
+      <img fxFlex="50" fxFlex.sm="100" fxFlex.xs="100" class="imgBox" src="../../assets/img/Portforio.png" alt title>
+    </div>
+
+    <!-- <div class="row flex-container">
+      <mat-grid-list cols="2" rowHeight="2:1">
         <mat-grid-tile class="left-tile">
           <mat-card-content>
             <h1 class="cardTitle">ポートフォリオサイト</h1>
@@ -17,14 +27,10 @@
         </mat-grid-tile>
         <mat-grid-tile class="right-tile">
           <mat-card-content>
-            <div class="imgBox">
-              <img src="../../assets/img/Portforio.png">
-            </div>
+            <img class="imgBox" src="../../assets/img/Portforio.png">
           </mat-card-content>
         </mat-grid-tile>
       </mat-grid-list>
-    </div>
-    <div>
-    </div>
+    </div> -->
   </div>
 </div>
