@@ -25,7 +25,6 @@ export class AppComponent implements OnInit {
         value.activedTab = true;
       }
     }
-    console.log(this.links);
     this.tabsService.putTabInfo(this.links);
   }
 
