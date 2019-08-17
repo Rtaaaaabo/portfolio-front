@@ -1,9 +1,15 @@
 <mat-toolbar>
   <span class="navTitle">Taku Nakagawa</span>
   <nav mat-tab-nav-bar>
-    <a mat-tab-link *ngFor="let link of links" (click)="activeLink = link.name" [active]="activeLink == link.name" routerLink="/{{link.urlPath}}">
-    <!-- <a mat-tab-link *ngFor="let link of links" (click)="onSelect(link)" [active]="selectedTab == link" -->
-      routerLink="/{{link.urlPath}}">
+    <a
+      mat-tab-link
+      *ngFor="let link of links"
+      (click)="activeLink = link.name"
+      [active]="activeLink == link.name"
+      routerLink="/{{ link.urlPath }}"
+    >
+      <!-- <a mat-tab-link *ngFor="let link of links" (click)="onSelect(link)" [active]="selectedTab == link" -->
+      routerLink="/{{ link.urlPath }}">
       <h2>{{ link.name }}</h2>
     </a>
   </nav>
