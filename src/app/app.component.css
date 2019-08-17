@@ -4,48 +4,38 @@
   color: #4051b4;
   font-weight: 600;
 }
-
 mat-toolbar-row.mat-toolbar-row {
   border-bottom: 1px solid #ffffff;
 }
-
 footer {
   background-color: #ddd;
   border-top: 1px solid #bbb;
   text-align: center;
 }
-
 #btmFooter {
   align-self: flex-end;
 }
-
 .mat-toolbar.mat-toolbar-single-row {
   font-size: 18px;
 }
-
 .menu-fill-remaining-space {
   flex: 1 1 auto;
 }
-
 .menu-content {
   font-size: 18px;
   color: #424242;
 }
-
 .mat-menu-panel {
   min-width: 200px;
   max-width: 300px;
 }
-
 .mat-menu-item {
   font-size: 18px;
   font-weight: 400;
 }
-
 mat-toolbar.app-toolbar {
   background: #ffffff;
 }
-
 @media (max-width: 959px) {
   .navTitle {
     padding: 5px 70px 0 10px;

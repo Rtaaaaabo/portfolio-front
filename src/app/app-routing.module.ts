@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { ProfilesComponent } from './profiles/profiles.component';
-import { WorksComponent } from './works/works.component';
-import { SkillsComponent } from './skills/skills.component';
-import { BlogsComponent } from './blogs/blogs.component';
+import { ProfilesComponent } from './components/profiles/profiles.component';
+import { WorksComponent } from './components/works/works.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { BlogsComponent } from './components/blogs/blogs.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/profile', pathMatch: 'full' },

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { EXPERIENCE } from '../date-interface';
+import { EXPERIENCE } from '../../date-interface';
 
 @Component({
   selector: 'app-skills',
@@ -10,7 +10,7 @@ export class SkillsComponent implements OnInit {
   dataSource = EXPERIENCE;
   displayedColumns: string[] = ['period', 'describe', 'skill', 'role'];
 
-  constructor() {}
+  constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() { }
 }
