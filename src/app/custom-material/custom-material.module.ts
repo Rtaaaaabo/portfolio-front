@@ -7,6 +7,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatTableModule } from '@angular/material/table';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [],
@@ -19,6 +20,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     MatMenuModule,
     MatGridListModule,
     MatSidenavModule,
+    MatListModule,
   ],
   exports: [
     MatButtonModule,
@@ -29,6 +31,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     MatTableModule,
     MatGridListModule,
     MatSidenavModule,
+    MatListModule,
   ]
 })
 export class CustomMaterialModule { }
